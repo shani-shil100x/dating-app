@@ -2,12 +2,12 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen flex items-center flex-col justify-center pt-20 pb-10 gap-10">
-      <div className="flex items-center gap-6 px-4">
+    <div className="min-h-screen flex items-center flex-col  py-10 gap-10">
+      <div className="flex items-center gap-6 px-8">
         {/* right */}
         <div className="flex flex-col items-center w-[50vw] gap-5">
           <h1 className="text-7xl text-center">Discover Your Perfect Match</h1>
-          <p className="text-[14px] w-[85%] text-start">
+          <p className="text-[16px] w-[97%] kaushan text-start">
             Find meaningful connections with like-minded individuals who share
             your values and aspirations. Our exclusive platform offers a curated
             experience for discerning singles seeking lasting relationships.
@@ -23,7 +23,7 @@ const HeroSection = () => {
         </div>
         {/* left side */}
         <div className=" w-[50%]">
-          <div className="w-[25rem] relative top-3">
+          <div className="relative top-3">
             <img
               src="/dating.jpg"
               alt="dating"
@@ -37,7 +37,10 @@ const HeroSection = () => {
         </div>
       </div>
       {/* cards */}
-      <div className="flex items-center gap-4 max-h-1/2 max-w-6xl p-6 ">
+      <div className=" w-[85%] -mb-5">
+        <h3 className="text-start font-bold ">Premium Features</h3>
+      </div>
+      <div className="flex items-center gap-8 max-h-1/2 max-w-6xl px-6 ">
         {/* for cards */}
         <div className="flex flex-col backdrop-blur-md  bg-white/10 border border-white/30 rounded-xl shadow-lg p-2 max-w-45 max-h-1/2 text-white ">
           <div className="mb-2 w-full">
@@ -99,6 +102,75 @@ const HeroSection = () => {
             your dating journey.
           </p>
         </div>
+      </div>
+      {/* for stories */}
+      <div className=" w-[85%] -mb-5">
+        <h3 className="text-start font-bold ">Success Stories</h3>
+      </div>
+      <div className="flex items-center gap-8 max-h-1/2 max-w-6xl px-6 ">
+        {/* for Cards */}
+        <div className="flex flex-col backdrop-blur-md  bg-white/10 border border-white/30 rounded-xl shadow-lg p-2 max-w-45 max-h-1/2 text-white ">
+          <div className="mb-2 w-full">
+            <img
+              src="/c1.jpg"
+              alt=""
+              className="object-cover bg-no-repeat rounded-2xl w-full "
+            />
+          </div>
+          <h2 className="text-sm font-semibold mb-2">Sarah & David</h2>
+          <p className="text-[14px]">
+            "I found my soulmate on Elite Hearts. The quality of connections is
+            unmatched."
+          </p>
+        </div>
+        <div className="flex flex-col backdrop-blur-md  bg-white/10 border border-white/30 rounded-xl shadow-lg p-2 max-w-45 max-h-1/2 text-white ">
+          <div className="mb-2 w-full">
+            <img
+              src="/c6.jpg"
+              alt=""
+              className="object-cover bg-no-repeat rounded-2xl w-full "
+            />
+          </div>
+          <h2 className="text-sm font-semibold mb-2">Sarah & David</h2>
+          <p className="text-[14px]">
+            "I found my soulmate on Elite Hearts. The quality of connections is
+            unmatched."
+          </p>
+        </div>
+        <div className="flex flex-col backdrop-blur-md  bg-white/10 border border-white/30 rounded-xl shadow-lg p-2 max-w-45 max-h-1/2 text-white ">
+          <div className="mb-2 w-full">
+            <img
+              src="/c3.jpg"
+              alt=""
+              className="object-cover bg-no-repeat rounded-2xl w-full "
+            />
+          </div>
+          <h2 className="text-sm font-semibold mb-2">Sarah & David</h2>
+          <p className="text-[14px]">
+            "I found my soulmate on Elite Hearts. The quality of connections is
+            unmatched."
+          </p>
+        </div>
+        <div className="flex flex-col backdrop-blur-md  bg-white/10 border border-white/30 rounded-xl shadow-lg p-2 max-w-45 max-h-1/2 text-white ">
+          <div className="mb-2 w-full">
+            <img
+              src="/c2.jpg"
+              alt=""
+              className="object-cover bg-no-repeat rounded-2xl w-full "
+            />
+          </div>
+          <h2 className="text-sm font-semibold mb-2">Sarah & David</h2>
+          <p className="text-[14px]">
+            "I found my soulmate on Elite Hearts. The quality of connections is
+            unmatched."
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col items-center gap-5">
+        <h3 className="font-bold text-3xl">
+          Start Your Journey Today
+        </h3>
+        <button className="rounded-full px-4 py-1 bg-amber-200 text-black">Find Your Match</button>
       </div>
     </div>
   );

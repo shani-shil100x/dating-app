@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="text-white flex items-center justify-between px-5 py-3">
+    <div className="text-white flex items-center justify-between px-5 py-4">
       {/* for logo with text or else */}
       <div className="flex items-center gap-2">
         <img src="/logo.png" alt="logo" className="w-[33px] cursor-pointer" />
-        <h2 className="kaushan cursor-pointer"> MatchCo</h2>
+        <h2 className="kaushan cursor-pointer">Heartify</h2>
       </div>
 
       {/* this is for navigation bar */}
