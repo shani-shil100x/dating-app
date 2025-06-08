@@ -19,13 +19,13 @@ const Navbar = () => {
           <li className="hover:text-[#FADA7A]">Contact</li>
         </ul>
       </div>
-      
+
       {/* this is for login and join buttons */}
       <div className="flex items-center gap-3 cursor-pointer">
-        <button className="rounded-full border border-white px-4 py-1">
+        <button className="rounded-full cursor-pointer text-gray-900 hover:text-white border-2 border-gray-200 hover:bg-white focus:ring-2 focus:outline-none focus:ring-gray-300 px-4 py-1.5 dark:border-gray-600 dark:text-gray-400 dark:hover:text-black dark:hover:bg-gray-300 dark:focus:ring-gray-600">
           Join Free
         </button>
-        <button className="rounded-full border border-white px-4 py-1 bg-white text-black">
+        <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-lime-500/50 dark:shadow-lime-800/80 rounded-full px-4 py-1.5 cursor-pointer">
           SignUp
         </button>
       </div>
